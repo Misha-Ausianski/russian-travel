@@ -1,0 +1,11 @@
+.place__paragraphs {
+    align-self: start;
+    display: grid;
+    grid-row-gap: 26px;
+}
+
+@media screen and (max-width: 984px) {
+    .place__paragraphs {
+        grid-row-gap: 25px;
+    }
+}
