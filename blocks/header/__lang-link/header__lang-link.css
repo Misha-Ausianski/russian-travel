@@ -1,6 +1,4 @@
 .header__lang-link {
-    max-width: 30px;
-    max-height: 28px;
     text-decoration: none;
     font-size: 24px;
     line-height: 28px;
@@ -8,14 +6,8 @@
 }
 
 .header__lang-link:hover {
-    text-decoration: underline;
-    opacity: 60%;
+    opacity: 0.8;
     transition: 0.5s ease-in-out;
-}
-
-.header__lang-link:first-of-type {
-    margin-right: 18px;
-    text-decoration: underline;
 }
 
 @media screen and (max-width: 568px) {

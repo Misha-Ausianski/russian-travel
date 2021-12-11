@@ -8,5 +8,11 @@
     flex-direction: column;
     margin: 0 auto;
     box-sizing: border-box;
+    padding: 28px 0 24px 0;
 }
 
+@media screen and (max-width: 568px) {
+    .page {
+        padding-top: 16px;
+    }
+}

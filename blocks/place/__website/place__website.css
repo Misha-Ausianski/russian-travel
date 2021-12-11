@@ -2,6 +2,11 @@
     align-self: end;
 }
 
+.place__website {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 @media screen and (max-width: 568px) {
     .place__website {
         width: calc(100% - (16px * 2));

@@ -4,6 +4,11 @@
     grid-row-gap: 26px;
 }
 
+.place__paragraphs {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
 @media screen and (max-width: 984px) {
     .place__paragraphs {
         grid-row-gap: 25px;
