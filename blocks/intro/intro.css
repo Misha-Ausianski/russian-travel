@@ -1,6 +1,6 @@
 .intro {
     max-width: 690px;
-    margin-left: 207px;
+    margin-left: 207px; /* (отступ по нашему макету для разрешения 1280 равен 207px) */
 }
 
 @media screen and (max-width: 1100px) {
